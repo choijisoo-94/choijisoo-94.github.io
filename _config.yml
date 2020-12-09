@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Choi Jisoo"
-  avatar           :  "/assets/images/1577451329361.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "https://github.com/choijisoo-94/minimal-mistakes"# path of avatar image, e.g. "/assets/images/1577451329361.jpg"
   bio              : "I am a brave person."
   location         : "South Korea"
   email            :
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chawanghyeon"
+      url: "https://github.com/choijisoo-94"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
