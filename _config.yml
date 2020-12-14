@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Choi Jisoo"
-  avatar           :  "/choijisoo-94/minimal-mistakes/assets/images/1577451329361.jpg" # path of avatar image, e.g. "/assets/images/1577451329361.jpg"
+  avatar           :  "/assets/images/1577451329361.jpg" # path of avatar image, e.g. "/assets/images/1577451329361.jpg"
   bio              : "I am a brave person."
   location         : "South Korea"
   email            :
