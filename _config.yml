@@ -95,7 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "Choi Jisoo"
-  avatar           :  "/assets/images/1577451329361.jpg" # path of avatar image, e.g. "/assets/images/1577451329361.jpg"
+  avatar           :  "https://user-images.githubusercontent.com/73863771/102051396-dbf75c00-3e27-11eb-9dbe-eff2347d849c.png" # path of avatar image, e.g. "/assets/images/1577451329361.jpg"
+
   bio              : "I am a brave person."
   location         : "South Korea"
   email            :
