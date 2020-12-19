@@ -22,7 +22,7 @@ F(5) = F(3) + F(4) = 2 + 3 = 5
 * n은 1이상, 100000이하인 자연수입니다.
 
 입출력 예
-|<span style="color:purple">n</span1>|<span style="color:purple">return</span1>|
+|<span style="color:purple">n</span>|<span style="color:purple">return</span>|
 |:------:|:------:|
 |3|2|
 |5|5|
