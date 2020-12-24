@@ -1,8 +1,8 @@
 ---
-title: "[Programmers] 최솟값 구하기"
+title: "[Programmers] 최솟값 만들기"
 date: 2020-12-21T18:31:46+09:00
 draft: false
-description: "[Programmers] 최솟값 구하기"
+description: "[Programmers] 최솟값 만들기"
 tags: [알고리즘]
 categories: [알고리즘]
 ---
@@ -22,26 +22,27 @@ A에서 세번째 숫자인 2, B에서 첫번째 숫자인 4를 뽑아 곱하여
 배열 A, B의 크기 : 1,000 이하의 자연수
 배열 A, B의 원소의 크기 : 1,000 이하의 자연수
 
+입출력 예 #1
+문제의 예시와 같습니다.
+
+입출력 예 #2
+A에서 첫번째 숫자인 1, B에서 두번째 숫자인 4를 뽑아 곱하여 더합니다. (누적된 값 : 4) 다음, A에서 두번째 숫자인 2, B에서 첫번째 숫자인 3을 뽑아 곱하여 더합니다. (누적된 값 : 4 + 6 = 10)
+이 경우가 최소이므로 10을 return 합니다.
+
 ```
 import java.util.Arrays;
-
-class Solution {
-    public int solution(int[] arr){
-        Arrays.sort(arr);
-        int lcm = arr[0] * arr[1] / gcd(arr[0], arr[1]);
-        
-        for(int i= 2; i<arr.length; i++){
-            lcm = lcm * arr[i] / gcd(lcm, arr[i]);
-        }
-        return lcm;
-    }
-    public static int gcd(int small, int big){
-        while(small != 0){
-            int nmg =big % small;
-            big = small;
-            small = nmg;
-        }
-        return big;
-    }
+class Solution
+{
+    public int solution(int[] A, int[] B) {
+		Arrays.sort(A); 
+		Arrays.sort(B);
+		
+		int sum = 0; 
+		for(int i=0; i<A.length; i++) { 
+			sum += A[i] * B[A.length-i-1];
+		}
+		
+		return sum;
+	}
 }
 ```
