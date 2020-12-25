@@ -5,7 +5,11 @@ draft: false
 description: "[Programmers] 피보나치수"
 tags: [알고리즘]
 categories: [알고리즘]
+toc : true
+toc_sticky : true
+toc_label : 목차
 ---
+## 문제
 피보나치 수는 F(0) = 0, F(1) = 1일 때, 1 이상의 n에 대하여 F(n) = F(n-1) + F(n-2) 가 적용되는 수 입니다.
 
 예를들어
@@ -18,14 +22,14 @@ categories: [알고리즘]
 
 2 이상의 n이 입력되었을 때, n번째 피보나치 수를 1234567으로 나눈 나머지를 리턴하는 함수, solution을 완성해 주세요.
 
-제한 사항
+## 제한 사항
     ▶ n은 1이상, 100000이하인 자연수입니다.
 
-입출력 예 설명
+## 입출력 예 설명
     ▶ 피보나치수는 0번째부터 0, 1, 1, 2, 3, 5, ... 와 같이 이어집니다.
 
 
-```
+```java
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
