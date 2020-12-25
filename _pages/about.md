@@ -4,4 +4,4 @@ permalink: /about/
 layout: single
 ---
 
-안녕하세요.최지수입니다.
+안녕하세요.개발을 시작한 최지수입니다.
