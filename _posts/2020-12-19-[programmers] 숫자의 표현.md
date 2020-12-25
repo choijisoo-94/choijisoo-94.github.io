@@ -5,6 +5,9 @@ draft: false
 description: "[Programmers] 숫자의 표현"
 tags: [알고리즘]
 categories: [알고리즘]
+toc : true
+toc_sticky : true
+toc_label : 목차
 ---
 Finn은 요즘 수학공부에 빠져 있습니다. 수학 공부를 하던 Finn은 자연수 n을 연속한 자연수들로 표현 하는 방법이 여러개라는 사실을 알게 되었습니다. 예를들어 15는 다음과 같이 4가지로 표현 할 수 있습니다.
 
