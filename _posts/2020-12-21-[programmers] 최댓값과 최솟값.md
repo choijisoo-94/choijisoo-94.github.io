@@ -16,6 +16,8 @@ toc_label : 목차
 ## 제한 조건
     ▶ s에는 둘 이상의 정수가 공백으로 구분되어 있습니다.
 
+## 소스 코드
+
 <details>
 <summary>소스코드</summary>
 <div markdown="1">
