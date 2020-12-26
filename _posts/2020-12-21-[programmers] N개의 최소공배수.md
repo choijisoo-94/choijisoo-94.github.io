@@ -16,6 +16,9 @@ toc_label : 목차
     ▶ arr은 길이 1이상, 15이하인 배열입니다.
     ▶ arr의 원소는 100 이하인 자연수입니다.
 
+<details>
+<summary>소스코드</summary>
+<div markdown="1">
 
 ```java
 import java.util.Arrays;
@@ -40,3 +43,5 @@ class Solution {
     }
 }
 ```
+</div>
+</details>

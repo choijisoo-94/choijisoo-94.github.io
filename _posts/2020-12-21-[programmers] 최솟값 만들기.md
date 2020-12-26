@@ -41,6 +41,10 @@ A에서 세번째 숫자인 2, B에서 첫번째 숫자인 4를 뽑아 곱하여
 A에서 첫번째 숫자인 1, B에서 두번째 숫자인 4를 뽑아 곱하여 더합니다. (누적된 값 : 4) 다음, A에서 두번째 숫자인 2, B에서 첫번째 숫자인 3을 뽑아 곱하여 더합니다. (누적된 값 : 4 + 6 = 10)
 이 경우가 최소이므로 10을 return 합니다.
 
+<details>
+<summary>소스코드</summary>
+<div markdown="1">
+
 ```java
 import java.util.Arrays;
 class Solution
@@ -58,3 +62,5 @@ class Solution
 	}
 }
 ```
+</div>
+</details>
