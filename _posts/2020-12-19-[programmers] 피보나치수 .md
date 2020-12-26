@@ -28,6 +28,9 @@ toc_label : 목차
 ## 입출력 예 설명
     ▶ 피보나치수는 0번째부터 0, 1, 1, 2, 3, 5, ... 와 같이 이어집니다.
 
+<details>
+<summary>소스코드</summary>
+<div markdown="1">
 
 ```java
 #include <stdio.h>
@@ -46,3 +49,5 @@ int solution(int n) {
     return a;
 }
 ```
+</div>
+</details>
