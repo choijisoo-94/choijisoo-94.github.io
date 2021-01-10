@@ -3,8 +3,8 @@ title: "[Programmers] 피보나치수"
 date: 2020-12-19T18:31:46+09:00
 draft: false
 description: "[Programmers] 피보나치수"
-tags: [알고리즘]
-categories: [알고리즘]
+tags: [Programmers Algorithm]
+categories: [Programmers Algorithm]
 toc : true
 toc_sticky : true
 toc_label : 목차
