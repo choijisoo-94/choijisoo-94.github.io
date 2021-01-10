@@ -3,8 +3,8 @@ title: "[Programmers] 카펫"
 date: 2020-12-25T18:31:46+09:00
 draft: false
 description: "[Programmers] 카펫"
-tags: [알고리즘]
-categories: [알고리즘]
+tags: [Programmers Algorithm]
+categories: [Programmers Algorithm]
 toc : true
 toc_sticky : true
 toc_label : 목차
