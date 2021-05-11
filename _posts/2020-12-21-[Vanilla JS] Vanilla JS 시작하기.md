@@ -42,5 +42,4 @@ h1{
 alert("Hello!!");
 ```
 
-</div>
-</details>
+
