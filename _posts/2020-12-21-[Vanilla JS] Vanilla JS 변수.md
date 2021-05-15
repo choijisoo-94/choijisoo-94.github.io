@@ -15,14 +15,14 @@ toc_label: 목차
 4. var, let은 변수 선언시 초기 값을 주지 않아도 되지만 const는 반드시 초기값을 할당해야 합니다.
 5. var, let은 값을 다시 할당할 수 있지만 const는 한번 할당한 값은 변경할 수 없습니다(단, 객체 안에 프로퍼티가 변경되는 것까지 막지는 못합니다).
 
-## var
+## var 예시
 
 ```javascript
 console.log(num);
 var num;  //undefined
 ```
 
-## let
+## let 예시
 
 - let은 변수가 바뀔 수 있지만 const는 변수가 정해진 순간 바뀔 수 없다.
 
@@ -38,7 +38,8 @@ num = 1; //1
 console.log(num) //1
 ```
 
-## const
+## const 예시
+
 ```javascript
 const obj = { first: 1 };
 // 에러 발생
