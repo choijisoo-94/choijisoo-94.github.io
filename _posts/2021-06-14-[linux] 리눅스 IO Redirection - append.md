@@ -14,7 +14,9 @@ toc_label : 목차
 ## - append
 
 > 1번
+
 - firstdir 이라는 디렉토리 안의 항목을 체크함
+
 ```linux
 websquare@websquare-virtual-machine:~/firstdir$ ls -al
 합계 20
@@ -27,7 +29,9 @@ drwxr-xr-x 18 websquare websquare 4096  6월 14 14:37 ..
 ```
 
 >2번
+
 - firstdir 목록을 result.txt라는 파일을 만들어 저장함
+
 ```linux
 websquare@websquare-virtual-machine:~/firstdir$ ls -al > result.txt
 websquare@websquare-virtual-machine:~/firstdir$ ls -al
@@ -41,7 +45,9 @@ drwxr-xr-x 18 websquare websquare 4096  6월 14 14:37 ..
 ```
 
 >3번
+
 - result.txt 안에 ls -al 을 한번 더, 같은 result.txt 파일에 저장
+
 ```linux
 websquare@websquare-virtual-machine:~/firstdir$ ls -al >> result.txt
 websquare@websquare-virtual-machine:~/firstdir$ cat result.txt
@@ -62,6 +68,6 @@ drwxr-xr-x 18 websquare websquare 4096  6월 14 14:37 ..
 
 ### 핵심 내용
 
-1) 꺽쇠가 두개 (<<) 이면 기존의 파일에 내용을 더한다.
+1) 꺽쇠가 두개 (>>) 이면 기존의 파일에 내용을 더한다.
 
-2) 꺽쇠가 반대로 두개(>>) 이면 입력을 하나로 합친다.
+2) 꺽쇠가 반대로 두개(<<) 이면 입력을 하나로 합친다.
