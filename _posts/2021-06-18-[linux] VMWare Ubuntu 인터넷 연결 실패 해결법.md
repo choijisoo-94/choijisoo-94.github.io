@@ -19,11 +19,13 @@ toc_label : 목차
 3. Network 설정을 NET 으로 설정해준다.
 
 4. 터미널을 켜서 하단의 명령어를 입력한다.
+
 ```linux
 sudo dhclient
 ```
 
 5. ip 주소를 받아오는지 확인한다.
+
 ```linux
 ifconfig
 ```
