@@ -32,6 +32,7 @@ drwxr-xr-x 18 websquare websquare 4096  6월 14 14:37 ..
 
 - firstdir 목록을 result.txt라는 파일을 만들어 저장함
 
+
 ```linux
 websquare@websquare-virtual-machine:~/firstdir$ ls -al > result.txt
 websquare@websquare-virtual-machine:~/firstdir$ ls -al
@@ -47,6 +48,7 @@ drwxr-xr-x 18 websquare websquare 4096  6월 14 14:37 ..
 >3번
 
 - result.txt 안에 ls -al 을 한번 더, 같은 result.txt 파일에 저장
+
 
 ```linux
 websquare@websquare-virtual-machine:~/firstdir$ ls -al >> result.txt
