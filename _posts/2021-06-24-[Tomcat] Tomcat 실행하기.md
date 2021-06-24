@@ -1,5 +1,5 @@
 ---
-title: "[Tomcat] TOMCAT9 실행하기"
+title: "[Tomcat] TOMCAT9 실행하기(1)"
 date: 2021-06-24T13:31:46+09:00
 draft: false
 description: "[Tomcat] TOMCAT9 실행하기(1)"
@@ -10,7 +10,7 @@ toc_sticky : true
 toc_label : 목차
 ---
 
-## Tomcat9 실행하기
+## Tomcat9 실행하기(1)
 
 1. 우선 tomcat 사이트에 접속합니다.
 
