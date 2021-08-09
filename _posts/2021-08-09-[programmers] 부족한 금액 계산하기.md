@@ -1,6 +1,6 @@
 ---
 title: "[Programmers] 부족한 금액 계산하기"
-date: 2021-01-04T21:31:46+09:00
+date: 2021-08-09T13:31:46+09:00
 draft: false
 description: "[Programmers] 부족한 금액 계산하기"
 tags: [Programmers Algorithm]
