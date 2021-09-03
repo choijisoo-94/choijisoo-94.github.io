@@ -242,7 +242,7 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/projects/my-awesome-category/index.html ~> path: /projects/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-#projects_archive:
+#project_archive:
   #type: liquid
   #path: /projects/
 #category_archive:
@@ -254,12 +254,15 @@ whitelist:
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
+#     - projects
 #     - categories
 #     - tags
 #   layouts:
+#     project: archive-taxonomy
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
 #   permalinks:
+#     projects: /projects/:name/
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
