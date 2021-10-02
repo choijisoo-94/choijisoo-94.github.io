@@ -26,7 +26,7 @@ toc_label : 목차
 
 ## 입출력 예
 
-|numbers|return
+|numbers|return|
 |:-----------------:|:----------------------:|
 |[6, 10, 2]|"6210"|
 |[3, 30, 34, 5, 9]|"9534330"|
@@ -46,7 +46,7 @@ function solution(numbers){
 		return '0';
 	}else {
 		return list.join('');
-	}
+	};
 }
 ```
 </div>
