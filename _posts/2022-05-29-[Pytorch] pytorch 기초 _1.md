@@ -100,7 +100,7 @@ Random Tensor:
 shape 은 텐서의 차원(dimension)을 나타내는 튜플(tuple)로, 아래 함수들에서는 출력 텐서의 차원을 결정합니다.
 
 <details>
-<div>
+<div markdown="1">
 
 ```python
 shape = (2,3,)
